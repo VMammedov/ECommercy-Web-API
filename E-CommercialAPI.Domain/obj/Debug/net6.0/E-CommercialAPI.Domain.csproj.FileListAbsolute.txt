@@ -1,0 +1,12 @@
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\bin\Debug\net6.0\E-CommercialAPI.Domain.deps.json
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\bin\Debug\net6.0\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\bin\Debug\net6.0\E-CommercialAPI.Domain.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.AssemblyInfo.cs
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\refint\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\E-CommercialAPI.Domain.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Domain\obj\Debug\net6.0\ref\E-CommercialAPI.Domain.dll

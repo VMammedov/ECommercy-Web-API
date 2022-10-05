@@ -1,0 +1,17 @@
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Persistance.deps.json
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Persistance.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Persistance.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Application.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Application.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\bin\Debug\net6.0\E-CommercialAPI.Domain.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.csproj.AssemblyReference.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.AssemblyInfoInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.AssemblyInfo.cs
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.csproj.CopyComplete
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\refint\E-CommercialAPI.Persistance.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\E-CommercialAPI.Persistance.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Persistance\obj\Debug\net6.0\ref\E-CommercialAPI.Persistance.dll

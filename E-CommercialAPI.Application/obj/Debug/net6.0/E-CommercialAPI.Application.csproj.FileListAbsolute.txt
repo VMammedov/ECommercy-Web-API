@@ -1,0 +1,15 @@
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\bin\Debug\net6.0\E-CommercialAPI.Application.deps.json
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\bin\Debug\net6.0\E-CommercialAPI.Application.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\bin\Debug\net6.0\E-CommercialAPI.Application.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\bin\Debug\net6.0\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\bin\Debug\net6.0\E-CommercialAPI.Domain.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.csproj.AssemblyReference.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.AssemblyInfoInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.AssemblyInfo.cs
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.csproj.CopyComplete
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\refint\E-CommercialAPI.Application.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\E-CommercialAPI.Application.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Application\obj\Debug\net6.0\ref\E-CommercialAPI.Application.dll

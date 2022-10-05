@@ -1,0 +1,17 @@
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Infrastructure.deps.json
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Infrastructure.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Infrastructure.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Application.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Domain.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Application.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\bin\Debug\net6.0\E-CommercialAPI.Domain.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.csproj.CopyComplete
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\refint\E-CommercialAPI.Infrastructure.dll
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\E-CommercialAPI.Infrastructure.pdb
+C:\Users\vusal\source\repos\E-CommercialAPI\E-CommercialAPI.Infrastructure\obj\Debug\net6.0\ref\E-CommercialAPI.Infrastructure.dll
