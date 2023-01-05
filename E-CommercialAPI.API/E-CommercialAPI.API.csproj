@@ -21,7 +21,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\E-CommercialAPI.Application\E-CommercialAPI.Application.csproj" />
+    <ProjectReference Include="..\E-CommercialAPI.Infrastructure\E-CommercialAPI.Infrastructure.csproj" />
     <ProjectReference Include="..\E-CommercialAPI.Persistance\E-CommercialAPI.Persistance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\resource\file\" />
+    <Folder Include="wwwroot\resource\invoice\" />
+    <Folder Include="wwwroot\resource\product-images\" />
   </ItemGroup>
 
 </Project>

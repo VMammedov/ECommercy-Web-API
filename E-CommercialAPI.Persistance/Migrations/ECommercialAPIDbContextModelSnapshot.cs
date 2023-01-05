@@ -39,6 +39,38 @@ namespace E_CommercialAPI.Persistance.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("E_CommercialAPI.Domain.Entities.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Storage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("File");
+                });
+
             modelBuilder.Entity("E_CommercialAPI.Domain.Entities.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -111,6 +143,38 @@ namespace E_CommercialAPI.Persistance.Migrations
                     b.ToTable("OrderProduct");
                 });
 
+            modelBuilder.Entity("ProductProductImageFile", b =>
+                {
+                    b.Property<Guid>("ProductImageFilesId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("ProductsId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("ProductImageFilesId", "ProductsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("ProductProductImageFile");
+                });
+
+            modelBuilder.Entity("E_CommercialAPI.Domain.Entities.InvoiceFile", b =>
+                {
+                    b.HasBaseType("E_CommercialAPI.Domain.Entities.File");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("double precision");
+
+                    b.HasDiscriminator().HasValue("InvoiceFile");
+                });
+
+            modelBuilder.Entity("E_CommercialAPI.Domain.Entities.ProductImageFile", b =>
+                {
+                    b.HasBaseType("E_CommercialAPI.Domain.Entities.File");
+
+                    b.HasDiscriminator().HasValue("ProductImageFile");
+                });
+
             modelBuilder.Entity("E_CommercialAPI.Domain.Entities.Order", b =>
                 {
                     b.HasOne("E_CommercialAPI.Domain.Entities.Customer", "Customer")
@@ -127,6 +191,21 @@ namespace E_CommercialAPI.Persistance.Migrations
                     b.HasOne("E_CommercialAPI.Domain.Entities.Order", null)
                         .WithMany()
                         .HasForeignKey("OrdersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_CommercialAPI.Domain.Entities.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProductProductImageFile", b =>
+                {
+                    b.HasOne("E_CommercialAPI.Domain.Entities.ProductImageFile", null)
+                        .WithMany()
+                        .HasForeignKey("ProductImageFilesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

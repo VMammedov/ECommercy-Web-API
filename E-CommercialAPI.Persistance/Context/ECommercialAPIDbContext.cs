@@ -18,10 +18,13 @@ namespace E_CommercialAPI.Persistance.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Domain.Entities.File> Files { get; set; }
+        public DbSet<ProductImageFile> ProductImageFiles { get; set; }
+        public DbSet<InvoiceFile> InvoiceFiles { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            // ChangeTracker : Entityler uzerinde edilen deyisikliklerin yada yeni elave edilen melumatin elde edilmesine imkan veren propertydir. Track edilen melumatlari tutuv elde elemeyimize komek edir.
+            // ChangeTracker : Entityler uzerinde edilen deyisikliklerin yada yeni elave edilen melumatin elde edilmesine imkan veren propertydir. Track edilen melumatlari tutub elde elemeyimize komek edir.
 
             var datas = ChangeTracker.Entries<BaseEntity>();
 

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "DAczzbm6BR5ONv4VrPRFrTRfARmFwHYCryDnAhTOFlI=",
+  "Hash": "a6O2yJGZDUkqtyCYzSOlGklzgg/M4w4etzI2ABSrTeY=",
   "Source": "E-CommercialAPI.API",
   "BasePath": "_content/E-CommercialAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "E-CommercialAPI.API\\wwwroot",
+      "Source": "E-CommercialAPI.API",
+      "ContentRoot": "C:\\Users\\vusal\\source\\repos\\E-CommercialAPI\\E-CommercialAPI.API\\wwwroot\\",
+      "BasePath": "_content/E-CommercialAPI.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
