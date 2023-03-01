@@ -1,4 +1,6 @@
-﻿using System;
+﻿using E_CommercialAPI.Application.ViewModels.ProductImages;
+using E_CommercialAPI.Application.ViewModels.Products;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,7 @@ namespace E_CommercialAPI.Application.Features.Queries.ProductImageFile.GetProdu
 {
     public class GetProductImagesQueryResponse
     {
+        public int TotalCount { get; set; }
+        public List<VM_Get_ProductImage> ProductImages { get; set; }
     }
 }

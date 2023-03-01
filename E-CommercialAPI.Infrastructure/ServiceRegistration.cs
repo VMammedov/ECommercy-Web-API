@@ -1,9 +1,11 @@
 ﻿using E_CommercialAPI.Application.Abstractions.Storage;
+using E_CommercialAPI.Application.Abstractions.Token;
 using E_CommercialAPI.Infrastructure.Enums;
 using E_CommercialAPI.Infrastructure.Services;
 using E_CommercialAPI.Infrastructure.Services.Storage;
 using E_CommercialAPI.Infrastructure.Services.Storage.Azure;
 using E_CommercialAPI.Infrastructure.Services.Storage.Local;
+using E_CommercialAPI.Infrastructure.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -18,6 +20,7 @@ namespace E_CommercialAPI.Infrastructure
         public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<IStorageService, StorageService>();
+            serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
         }
 
         public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : StorageCommon, IStorage

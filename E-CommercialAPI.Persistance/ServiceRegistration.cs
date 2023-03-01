@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using E_CommercialAPI.Application.Repositories;
 using E_CommercialAPI.Persistance.Repositories;
+using E_CommercialAPI.Domain.Entities.Identity;
 
 namespace E_CommercialAPI.Persistance
 {
@@ -18,6 +19,15 @@ namespace E_CommercialAPI.Persistance
         public static void AddPersistanceServices(this IServiceCollection services)
         {
             services.AddDbContext<ECommercialAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+            services.AddIdentity<AppUser, AppRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = true;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                options.User.RequireUniqueEmail = true;
+            }).AddEntityFrameworkStores<ECommercialAPIDbContext>();
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();

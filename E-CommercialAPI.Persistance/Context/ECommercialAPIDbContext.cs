@@ -1,5 +1,7 @@
 ﻿using E_CommercialAPI.Domain.Entities;
 using E_CommercialAPI.Domain.Entities.Common;
+using E_CommercialAPI.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace E_CommercialAPI.Persistance.Context
 {
-    public class ECommercialAPIDbContext : DbContext
+    public class ECommercialAPIDbContext : IdentityDbContext<AppUser,AppRole,string>
     {
         public ECommercialAPIDbContext(DbContextOptions options) : base(options)
         {

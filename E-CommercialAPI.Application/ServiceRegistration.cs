@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using E_CommercialAPI.Application.Abstractions.Token;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

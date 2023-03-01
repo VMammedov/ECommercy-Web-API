@@ -9,5 +9,6 @@ namespace E_CommercialAPI.Application.Features.Queries.ProductImageFile.GetProdu
 {
     public class GetProductImagesQueryRequest : IRequest<GetProductImagesQueryResponse>
     {
+        public string Id { get; set; }
     }
 }

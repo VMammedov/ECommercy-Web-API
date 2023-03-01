@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vusal\\source\\repos\\E-CommercialAPI\\E-CommercialAPI.API\\wwwroot\\photo-images\\favicon.png",
+      "PackagePath": "staticwebassets\\photo-images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\vusal\\source\\repos\\E-CommercialAPI\\E-CommercialAPI.API\\wwwroot\\photo-images\\intro-pic.png",
+      "PackagePath": "staticwebassets\\photo-images\\intro-pic.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.E-CommercialAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.E-CommercialAPI.API.props",
+      "PackagePath": "build\\E-CommercialAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.E-CommercialAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\E-CommercialAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.E-CommercialAPI.API.props",
+      "PackagePath": "buildTransitive\\E-CommercialAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

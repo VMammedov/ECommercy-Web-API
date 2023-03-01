@@ -1,5 +1,6 @@
 ﻿using E_CommercialAPI.Application.Features.Commands.ProductImageFile.UploadProductImage;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace E_CommercialAPI.Application.Features.Commands.ProductImageFile.UploadP
 {
     public class UploadImageCommandRequest : IRequest<UploadImageCommandResponse>
     {
+        public string Id { get; set; }
+        public IFormFileCollection FormFiles { get; set; }
     }
 }
